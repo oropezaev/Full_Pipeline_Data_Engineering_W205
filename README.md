@@ -1,4 +1,4 @@
-# Project 3: Understanding User Behavior
+# Final Project: Understanding User Behavior
 
 - You're a data scientist at a game development company  
 
