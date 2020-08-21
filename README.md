@@ -1,5 +1,10 @@
 # Final Project: Understanding User Behavior
 
+## Summary
+A complete pipeline is designed to stream data from a Game Aplication in a Docker container. The API server code consists on three actions: purchase weapons, create guilds and join existing guilds. As data is streaming each action is filter individually according to the type of event and written to hadoop. Then Hive and presto are used to query the data. A script designed to reandomly produce the game application output is used to test the pipeline. Sql queries from Presto show the effectiveness of the created pipeline. Different commands are executed simultaneausly on different terminals.
+
+## Objectives
+
 - You're a data scientist at a game development company  
 
 - Your latest mobile game has two events you're interested in tracking: `buy a
